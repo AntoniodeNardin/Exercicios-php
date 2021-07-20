@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+    <form action="criar.php" method="post">
+        <p>
+            <label for="Nconta">Numero da conta</label>
+            <input type="number" name="Nconta" id="">
+        </p>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="">
+        <p>
+            <label for="nome">Tipo</label>
+            <input type="radio" name="tipo" id="" value="CC">CC
+            <input type="radio" name="tipo" id="" value="CP">CP
+        </p>
+        <p><label for="deposito">Deposito:</label>
+      <input type="number" name="deposito" id=""></p>
+      <p><label for="saque">Saque:</label>
+        <input type="number" name="saque" id=""></p>
+      <input type="submit" value="Criar">
+    </form>
+</body>
+</html>

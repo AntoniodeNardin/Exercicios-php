@@ -1,0 +1,21 @@
+:root{
+    --corfundo:#274870;
+    --corsection:#fff;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: var(--corfundo);
+    text-align: center;
+}
+section{
+    width: 800px;
+    border-radius: 10px;
+    background-color: var(--corsection);
+    text-align: center;
+    margin: auto;
+
+}

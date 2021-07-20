@@ -1,0 +1,67 @@
+<!DOCTYPE tecnologia>
+<tecnologia lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mege-tech</title>
+</head>
+<body>
+    <fieldset>
+        <header>
+            <h1>Cadastro</h1>
+            <h2>Mege-tech</h2>
+        </header>
+        <main>
+        <section>
+        <form action="cadastro.php" method="POST">
+            <div id="contato">
+                <strong>
+                    <p><label for="nome">Nome:</label>
+                </strong>
+                <input type="text" name="name" id="" >
+                <strong><label for="nome">Email:</label></strong>
+                <input type="text" name="email" id=""></p>
+            </div>
+            <div id="senioridade">
+                <strong><label id="campos"  for="">Senioridade</label></strong>
+                 <p>
+                     <input type="radio" name="senioridade" id=""  value="Júnior">
+                     <label for="">Júnior</label>
+                 </p>
+                 <p>
+                     <input type="radio" name="senioridade" id="" value="Pleno">
+                     <label for="">Pleno</label>
+                 </p>
+                <input type="radio" name="senioridade" id=""  value="Senior">
+                <label for="">Sênior</label>
+            </div>
+            <div id="desenvolvimento">
+                <p><strong><label id="campos" for="desenvolvimento">Area de desenvolvimento:</label></strong></p>
+                <select name="desenvolvimento" id="">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="Front-end">Front-end</option>
+                    <option value="Back-end">Back-end</option>
+                    <option value="Full stack">Full stack</option>
+                </select>
+            </div>
+            <div id="tecnologias">
+                <p><strong><label id="campos" for="tecnologias">Tecnologias</label></strong></p>
+                <input type="checkbox" name="tecnologia1" id="" value="HTML">HTML
+                <input type="checkbox" name="tecnologia2" id="" value="JS">JS
+                <input type="checkbox" name="tecnologia3" id="" value="CSS">CSS
+                <input type="checkbox" name="tecnologia4" id="" value="PHP">PHP
+            </div>
+            <div id="texto">
+                <p><label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label></p>
+                <textarea name="texto" id="" cols="30" rows="10">
+                </textarea>
+                <strong><button type="submit">Enviar</button></strong>
+            </div>
+        </form>
+        </section>
+        </main>
+    </fieldset>
+</body>
+</tecnologia>
